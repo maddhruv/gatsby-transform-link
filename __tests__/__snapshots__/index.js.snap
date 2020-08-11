@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plugin with both prefix and suffix should render links correctly 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 9,
+                  "line": 1,
+                  "offset": 8,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Example",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 31,
+              "line": 1,
+              "offset": 30,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "ssh+https://example.com?ref=maddhruv",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 31,
+          "line": 1,
+          "offset": 30,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 31,
+      "line": 1,
+      "offset": 30,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Plugin with prefix should render links correctly 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 9,
+                  "line": 1,
+                  "offset": 8,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Example",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 31,
+              "line": 1,
+              "offset": 30,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "ssh+https://example.com",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 31,
+          "line": 1,
+          "offset": 30,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 31,
+      "line": 1,
+      "offset": 30,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Plugin with suffix should render links correctly 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 9,
+                  "line": 1,
+                  "offset": 8,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Example",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 31,
+              "line": 1,
+              "offset": 30,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "https://example.com?ref=maddhruv",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 31,
+          "line": 1,
+          "offset": 30,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 31,
+      "line": 1,
+      "offset": 30,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Plugin without options should render links correctly 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 9,
+                  "line": 1,
+                  "offset": 8,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 2,
+                  "line": 1,
+                  "offset": 1,
+                },
+              },
+              "type": "text",
+              "value": "Example",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 31,
+              "line": 1,
+              "offset": 30,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 1,
+              "offset": 0,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "https://example.com",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 31,
+          "line": 1,
+          "offset": 30,
+        },
+        "indent": Array [],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 31,
+      "line": 1,
+      "offset": 30,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;

@@ -1,17 +1,26 @@
 {
   "name": "gatsby-transform-link",
   "version": "0.0.2",
-  "description": "",
+  "description": "Transform Remarkable Links in Gatsby",
   "main": "index.js",
   "scripts": {
-    "prepublishOnly": "npm-audit-ok && package-ok"
+    "prepublishOnly": "npm-audit-ok && package-ok && npm run test",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maddhruv/gatsby-transform-link.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transform-link",
+    "gatsby-transformer-link",
+    "gatsby-transformer-remark",
+    "remark",
+    "maddhruv"
+  ],
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.xyz)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maddhruv/gatsby-transform-link/issues"
@@ -21,6 +30,8 @@
     "unist-util-visit": "^2.0.3"
   },
   "devDependencies": {
-    "prepublish-ok": "^0.5.0"
+    "jest": "^26.3.0",
+    "prepublish-ok": "^0.5.0",
+    "remark": "^12.0.1"
   }
 }

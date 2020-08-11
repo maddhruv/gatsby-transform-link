@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-transform-link",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm-audit-ok && package-ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddhruv/gatsby-transform-link.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddhruv/gatsby-transform-link/issues"
+  },
+  "homepage": "https://github.com/maddhruv/gatsby-transform-link#readme",
+  "dependencies": {
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "prepublish-ok": "^0.5.0"
+  }
+}

@@ -2,7 +2,7 @@
 
 Modifying links on bulk is now easier with `gatsby-transform-link`.
 
-<img src='./banner.png' alt='gatsby-transform-link' />
+<img src='https://raw.githubusercontent.com/maddhruv/gatsby-transform-link/master/banner.png' alt='gatsby-transform-link' />
 
 The plugin can add prefix and suffix to the absolute URLs in your gatsby content. Can be used for -
 
